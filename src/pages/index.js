@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import styled, { ThemeProvider } from 'styled-components';
+
 
 import BigText from '../components/hero/BigText';
 
