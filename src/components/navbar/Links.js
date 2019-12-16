@@ -24,6 +24,10 @@ const StyledWrapper = styled.nav`
 				&:nth-child(odd) {
 					a {
 						color: var(--primary-color);
+						&:hover {
+							color: var(--secondary-color);
+							-webkit-text-stroke: 2px var(--primary-color);
+						}
 					}
 					&:before {
 						content: ' ';
@@ -35,16 +39,14 @@ const StyledWrapper = styled.nav`
 						width: 20000px;
 						transform: translate(-50%, -44%);
 					}
-					&:hover {
-						a {
-							color: var(--secondary-color);
-							-webkit-text-stroke: 2px var(--primary-color);
-						}
-					}
 				}
 				&:nth-child(even) {
 					a {
 						color: var(--secondary-color);
+						&:hover {
+							color: var(--primary-color);
+							-webkit-text-stroke: 2px var(--secondary-color);
+						}
 					}
 					&:before {
 						content: ' ';
@@ -55,12 +57,6 @@ const StyledWrapper = styled.nav`
 						height: 200px;
 						width: 20000px;
 						transform: translate(-50%, -20%);
-					}
-					&:hover {
-						a {
-							color: var(--primary-color);
-							-webkit-text-stroke: 2px var(--secondary-color);
-						}
 					}
 				}
 			}
