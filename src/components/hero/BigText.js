@@ -5,7 +5,7 @@ import styled from "styled-components"
 
 const StyledWrapper = styled.div`
     position: absolute;
-    transform: translate(30%, 40%);
+    transform: translate(30%, 30%);
     font-size: 65px;
     font-weight: 700;
     letter-spacing: -8px;

@@ -17,7 +17,7 @@ const GlobalStyles = createGlobalStyle`
 const StyledWrapper = styled.main`
 	--primary-color: #004225;
 	--secondary-color: #d29e17;
-	--font: 'Playfair Display SC';
+	--font: 'Playfair Display SC';	
 	background-color: var(--primary-color);
 	font-family: var(--font);
 	height: 100%;
