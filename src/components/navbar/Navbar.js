@@ -17,7 +17,10 @@ const Navbar = (props) => {
 							return <Links location={location.pathname} />;
 						case '/skills':
 							console.log('skills');
-							return <Links location={location.pathname}></Links>
+							return <Links location={location.pathname}></Links>;
+						case '/works':
+							console.log('works');
+							return <Links location={location.pathname}></Links>;
 						default:
 							console.log('Why are you even here');
 					}
